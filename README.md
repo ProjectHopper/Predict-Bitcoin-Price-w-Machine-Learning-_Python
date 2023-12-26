@@ -1,6 +1,6 @@
 # Project Overview
 
-This project predicts the future price of Bitcoin using historical data on the price of Bitcoin and data from Wikipedia on the edits to the Bitcoin page. We train a random forest model to tell us if Bitcoin prices will increase or decrease tomorrow. Then we use a gradient boosting model and improve the predictors to increase accuracy.
+This project predicts the future price of Bitcoin using historical data on the price of Bitcoin and data from Wikipedia on the edits to the Bitcoin page. We can train a random forest model to tell us if Bitcoin prices will increase or decrease tomorrow. Then we use a gradient boosting model and improve the predictors to increase accuracy.
 
 
 We'll develop a backtesting system and use a robust error metric so we can tell if the algorithm is performing well.
