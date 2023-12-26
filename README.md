@@ -1,6 +1,7 @@
 # Project Overview
 
-In this project, we'll predict the future price of Bitcoin.  We'll use historical data on the price of Bitcoin, along with data from Wikipedia about edits to the Bitcoin page.  We'll merge and combine this data, then use it to train a random forest model that will tell us if Bitcoin prices will increase or decrease tomorrow.  We'll then switch to an XGBoost model and better predictors to improve accuracy.
+This project predicts the future price of Bitcoin using historical data on the price of Bitcoin and data from Wikipedia on the edits to the Bitcoin page. We train a random forest model to tell us if Bitcoin prices will increase or decrease tomorrow. Then we use a gradient boosting model and improve the predictors to increase accuracy.
+
 
 We'll develop a backtesting system and use a robust error metric so we can tell if the algorithm is performing well.
 
@@ -17,8 +18,8 @@ This project can be extended to other cryptocurrencies as well.
 
 File overview:
 
-* `prediction.ipynb` - a Jupyter notebook that contains the code to predict Bitcoin prices
-* `sentiment.ipynb` - a Jupyter notebook that creates our wikipedia edit dataset.
+* `Downloading Bitcoin Price Data.ipynb` -  a Jupyter notebook that creates our wikipedia edit dataset.
+* `Prep data for Machine Learning_Training Baseline ML Mode.ipynb` - a Jupyter notebook that contains the code to predict Bitcoin prices
 
 # Local Setup
 
